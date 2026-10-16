@@ -1,0 +1,17 @@
+# Python y entornos
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+# Resultados locales voluminosos; publicar selectivamente con documentación
+runs/
+datasets/
+*.pt
+*.onnx
+# Sistema
+.DS_Store
+Thumbs.db
